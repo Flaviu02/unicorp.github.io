@@ -1,0 +1,196 @@
+<html>
+
+<HEAD>
+
+<TITLE>Unicorp Computer Consulting Ltd</TITLE>
+
+</HEAD>
+
+<body bgcolor="#000000">
+
+
+
+<script language="JavaScript"><!--
+
+browserName = navigator.appName;
+
+browserVer = parseInt ( navigator.appVersion );
+
+
+
+version = "n2";
+
+if ( browserName == "Netscape" && browserVer >= 3 ) version = "n3";
+
+if ( browserName == "Microsoft Internet Explorer" && browserVer >=4 ) version = "e4";
+
+
+
+if ( version == "n3" || version == "e4" )
+
+{
+
+
+
+        about_on = new Image ( 134, 94 );
+
+        about_on.src = "about_on.gif";
+
+        products_on = new Image ( 72, 69 );
+
+        products_on.src = "products_on.gif";
+
+        news_on = new Image ( 134, 70 );
+
+        news_on.src = "news_on.gif";
+
+        links_on = new Image ( 134, 94 );
+
+        links_on.src = "links_on.gif";
+
+        contactinfo_on = new Image ( 134, 94 );
+
+        contactinfo_on.src = "contactinfo_on.gif";
+
+				email_on = new Image ( 134, 70);
+
+        email_on.src = "email_on.gif";
+
+
+
+
+
+        about_off = new Image ( 134, 94 );
+
+        about_off.src = "about_off.gif";
+
+        products_off = new Image ( 134, 108 );
+
+        products_off.src = "products_off.gif";
+
+        news_off = new Image ( 134, 70 );
+
+        news_off.src = "news_off.gif";
+
+        links_off = new Image ( 134, 94 );
+
+        links_off.src = "links_off.gif";
+
+
+        contactinfo_off = new Image ( 134, 108 );
+
+        contactinfo_off.src = "contactinfo_off.gif";
+
+				email_off = new Image ( 134, 70 );
+
+        email_off.src = "email_off.gif";
+
+
+
+
+
+
+}
+
+
+
+function button_on ( imgName )
+
+{
+
+        if ( version == "n3" || version == "e4" )
+
+        {
+
+                butOn = eval ( imgName + "_on.src" );
+
+                document [imgName].src = butOn;
+
+        }
+
+}
+
+
+
+function button_off ( imgName )
+
+{
+
+        if ( version == "n3" || version == "e4" )
+
+        {
+
+                butOff = eval ( imgName + "_off.src" );
+
+                document [imgName].src = butOff;
+
+        }
+
+}
+
+// --></script>
+
+
+<TABLE BORDER=0 cellpadding=0 cellspacing=0 height=100% width=100%>
+
+
+
+<TR>
+
+
+
+<td align=center>
+
+<table border=0 cellpadding=0 cellspacing=0>
+
+<tr>
+          <td><a href="about.htm" onmouseover="button_on('about'); return true" onmouseout="button_off('about'); return true"><img src="about_off.gif" border="0" width="134" height="94" name="about"></a></td>
+        </tr>
+
+<tr>
+          <td><a href="products.htm" onmouseover="button_on('products'); return true" onmouseout="button_off('products'); return true"><img src="products_off.gif" border="0" width="134" height="108" name="products"></a></td>
+        </tr>
+
+<tr>
+          <td><a href="news.htm" onmouseover="button_on('news'); return true" onmouseout="button_off('news'); return true"><img src="news_off.gif" border="0" width="134" height="70" name="news"></a></td>
+        </tr></table>
+
+</td>
+
+    <td align=center valign=middle><IMG SRC="UnicorpLogo.gif" width="353" height="237"></td>
+
+<td>
+
+<table border=0 cellpadding=0 cellspacing=0>
+
+<tr>
+          <td><a href="links.htm" onmouseover="button_on('links'); return true" onmouseout="button_off('links'); return true"><img src="links_off.gif" border="0" width="134" height="94" name="links"></a></td>
+        </tr>
+
+<tr>
+          <td><a href="contactinfo.htm" onmouseover="button_on('contactinfo'); return true" onmouseout="button_off('contactinfo'); return true"><img src="contactinfo_off.gif" border="0" width="134" height="108" name="contactinfo"></a></td>
+        </tr>
+
+<tr>
+          <td><a href="mailto:unicorp@shaw.ca" onmouseover="button_on('email'); return true" onmouseout="button_off('email'); return true"><img src="email_off.gif" border="0" width="134" height="70" name="email"></a></td>
+        </tr></table
+
+
+></td>
+
+
+</tr>
+<tr>
+    <td colspan=3 align=center valign=middle> <font face="arial,helvetica,sans-serif" size="1" color="#ffffff">Unicorp 
+      Computer Consulting LTD </font><font face="arial,helvetica,sans-serif" size="1" color="#ffffff">&copy; 
+      2003</font> </td>
+  </tr>
+
+</table>
+
+
+
+
+</body>
+
+</html>
